@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Puig's resume</title>
     <style>
+        /* Make sure both html and body cover full viewport */
         html, body {
             background-color: black;
-            color: aliceblue;
+            color: rgb(249, 249, 249);
             margin: 0;
             padding: 0;
-            height: 100%;  
+            height: 100%; /* Ensure it covers full height */
         }
 
+        /* Ensure the body takes the full viewport height even if content is less */
         body {
+            min-height: 100vh;  /* Full viewport height */
             display: flex;
             flex-direction: column;
-            min-height: 100vh; 
         }
 
-        
+        /* Optional styling to add margin to paragraphs and other elements */
         h1, p, hr, li {
             margin: 10px;
         }
@@ -27,23 +29,34 @@
 </head>
 <body>
     <center><h1>Andrew Puig</h1></center>
-    <center><p>786-816-4817 | <a href="mailto:puigandrew95@gmail.com">puigandrew95@gmail.com</a> | <a href="www.linkedin.com/in/andrew-puig-951805284">www.linkedin.com/in/andrew-puig-951805284</a></p></center>
+    <center>
+        <p>
+            786-816-4817 | <a href="mailto:puigandrew95@gmail.com">puigandrew95@gmail.com</a> | 
+            <a href="www.linkedin.com/in/andrew-puig-951805284">www.linkedin.com/in/andrew-puig-951805284</a>
+        </p>
+    </center>
+    
     <p><strong>EDUCATION Florida International University (FL)</strong> | Miami, Florida</p>
     <hr>
+    
     <strong>Major: Computer Science</strong><br>
     Expected Graduation: 2027 <br>
-    <li>GPA: 3.7</li>
-    <strong>Associations:</strong> Innit: Participate in multiple skill-building workshops held in person at FIU <br>
+    <li>GPA: 3.7</li> 
+    <strong>Associations:</strong> Innit: Participate in multiple skill-building workshops held in person at FIU <br> 
     <strong>Scholarships:</strong> Local community scholarship for 1 year <br>
     <strong>Courses completed:</strong> Discrete Structures, Programming 1, 2
+    
     <p><strong>Skills</strong></p>
     <hr>
+    
     <p>
         <strong>Computer:</strong> Java, JavaFX, HTML, CSS, JS, Node.js, React, PostgreSQL, Web3, DApps <br>
         <strong>Languages:</strong> English (fluent), Spanish (fluent, native)
     </p>
+    
     <p><strong>Projects</strong></p>
     <hr>
+    
     <p>
         <strong>ShellHacks FIU 2024 - AI Education Application "UhackEDU" (unfinished)</strong> <br>
         Collaborative Project | Team of 4
